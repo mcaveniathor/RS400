@@ -1,0 +1,11 @@
+[package]
+name = "rs400"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.88"
+directories-next = "2.0.0"
+sled = "0.34.7"
+thiserror = "1.0.63"
+uuid = { version = "1.10.0", features = ["serde", "v4", "fast-rng", "zerocopy", "v7"] }
